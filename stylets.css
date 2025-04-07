@@ -1,0 +1,38 @@
+p {
+  color: rgb(84, 1, 1);
+  font-size: xx-large;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  /*   background-color: rgb(111, 133, 205); */
+  height: 358px;
+  /*   width: 1440px; */
+  justify-content: center;
+}
+.accueil {
+  border-color: #d9d9d9;
+  border: 1dvw;
+  width: 116px;
+  height: 40px;
+}
+
+main {
+  background-color: rgb(140, 64, 64);
+  flex-grow: 1;
+  justify-content: center;
+}
+
+footer {
+  background-color: rgb(107, 120, 95);
+  height: 486px;
+  width: 1443px;
+  justify-content: center;
+}
