@@ -1,38 +1,129 @@
-p {
-  color: rgb(84, 1, 1);
-  font-size: xx-large;
-}
-
+/* ----------------------------body------------------ */
 body {
-  margin: 0;
   display: flex;
+  margin: 5px;
+  margin-right: 5px;
   flex-direction: column;
   height: 100vh;
-  width: 100vw;
+  width: 100wv;
+  /*   width: 2084px; */
 }
-
+/* ----------------------------header------------------ */
 header {
-  /*   background-color: rgb(111, 133, 205); */
-  height: 358px;
-  /*   width: 1440px; */
-  justify-content: center;
-}
-.accueil {
-  border-color: #d9d9d9;
-  border: 1dvw;
-  width: 116px;
-  height: 40px;
+  display: flex;
+
+  width: 100vw;
+  height: 350px;
 }
 
-main {
-  background-color: rgb(140, 64, 64);
-  flex-grow: 1;
-  justify-content: center;
+.band_grise {
+  height: 50px;
+  width: 100vw;
+  margin: 5px;
+  background-color: rgb(83, 82, 82);
 }
 
+.flexbox {
+  display: flex;
+  flex-direction: row;
+
+  margin: 5px;
+  width: 2084px;
+}
+
+/* logo navigation */
+.flexbox1 {
+  /*   background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  width: 50%;
+}
+
+nav {
+  display: flex;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  /*   background-color: rgb(92, 18, 44); */
+  height: 66px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  justify-content: space-between;
+  margin-left: 300px;
+  margin-top: 25px;
+}
+div div img {
+  display: flex;
+  justify-content: left;
+}
+
+/* compt pannier rechercher */
+.flexbox2 {
+  /*   background-color: burlywood; */
+  margin: 5px;
+  padding: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  /*   justify-content: right; */
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 25%;
+}
+.icons {
+  display: flex;
+  margin: 5px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  /*   flex-direction: row; */
+  /*   height: 30px;
+  width: 30px; */
+}
+
+button {
+  margin: 5px;
+  display: flex;
+  width: 250px;
+  height: 30px;
+}
+
+/* ----------------------------main------------------ */
+/* main {
+  display: flex;
+  width: 100vw;
+  height: 500px;
+} */
+
+.diapo {
+  background-color: brown;
+  height: 522px;
+  width: 100vw;
+  padding-top: 5px;
+}
+
+.text_diapo {
+}
+
+/* .flexbox2 {
+  display: flex;
+  flex-direction: column;
+} */
+
+/* main {
+  display: flex;
+} */
+
+/* ----------------------------footer------------------ */
 footer {
   background-color: rgb(107, 120, 95);
   height: 486px;
-  width: 1443px;
+  width: 100vw;
   justify-content: center;
+}
+
+p {
+  color: rgb(84, 1, 1);
+  font-size: xx-large;
 }
