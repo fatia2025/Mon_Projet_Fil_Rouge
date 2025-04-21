@@ -122,3 +122,13 @@ footer {
     display: flex;
   }
 }
+
+a {
+  text-decoration: none; /* Supprime le soulignement */
+  color: #9d4043; /* Couleur du texte */
+  font-weight: bold; /* Texte en gras */
+}
+
+a:hover {
+  color: #404040; /* Couleur au survol */
+}
